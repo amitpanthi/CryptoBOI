@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/CryptoBOI/src"/>
+	<classpathentry exported="true" kind="lib" path="/CryptoBOI/src/com/tas/twitter4j-core-4.0.7.jar"/>
+	<classpathentry kind="output" path="/out/production/CryptoBOI"/>
+</classpath>
