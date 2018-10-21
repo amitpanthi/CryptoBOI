@@ -11,8 +11,6 @@ public class Bot
     public static void main(String[] args) throws TwitterException, IOException
     {
         Tweeter birb = new Tweeter(consolePrint);
-
-        String message = "";
-        birb.tweet(message);
+        birb.tweet();
     }
 }
