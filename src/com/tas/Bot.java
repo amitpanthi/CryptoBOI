@@ -10,7 +10,13 @@ public class Bot
 
     public static void main(String[] args) throws TwitterException, IOException
     {
-        Tweeter birb = new Tweeter(consolePrint);
-        birb.tweet();
+        try {
+            Tweeter birb = new Tweeter(consolePrint);
+            birb.tweet();
+        }
+        catch (TwitterException t)
+        {
+            t.toString();
+        }
     }
 }

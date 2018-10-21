@@ -24,18 +24,54 @@ public class Tweeter
 
     public void tweet() throws TwitterException, IOException, FileNotFoundException
     {
-        int random_number;
-        String chhoo = "";
-        ArrayList<String> Strings;
-        Strings = getStrings(new File("Z:\\code I'll never see again\\CryptoBOI\\src\\com\\tas\\lines.txt"));
+        try{
+            int random_number, encryption_selector;
+            ArrayList<String> Strings;
+            Strings = getStrings(new File("Z:\\code I'll never see again\\CryptoBOI\\src\\com\\tas\\lines.txt"));
 
-        Random RNG = new Random();
-        random_number = RNG.nextInt(Strings.size() + 1);
-        Railfence rail = new Railfence();
-        chhoo = rail.encryption(Strings.get(random_number), 3);
+            Random RNG = new Random();
+            random_number = RNG.nextInt(Strings.size());
+            encryption_selector = RNG.nextInt(4);
 
-        Status status = twitter.updateStatus(chhoo);
-        System.out.println("Hogaya bhai hogaya " + status.getText());
+            switch(encryption_selector) {
+                case 0:
+                    String jack = "";
+                    HillCipher hill = new HillCipher();
+                    jack = hill.encryption(Strings.get(random_number), 3);
+                    Status status = twitter.updateStatus("Hill Encrypted text: " + jack);
+                    System.out.println("Hogaya bhai hogaya " + status.getText());
+                    break;
+
+                case 1:
+                    String chhoo = "";
+                    Railfence rail = new Railfence();
+                    chhoo = rail.encryption(Strings.get(random_number), 3);
+                    status = twitter.updateStatus("Railfence encrypted text: " + chhoo);
+                    System.out.println("Hogaya bhai hogaya " + status.getText());
+                    break;
+
+                case 2:
+                    String sirens = "";
+                    Base64_op base = new Base64_op();
+                    sirens = base.encryption(Strings.get(random_number));
+                    status = twitter.updateStatus("Base64 encrypted text: " + sirens);
+                    System.out.println("Hogaya bhai hogaya " + status.getText());
+                    break;
+
+                case 3:
+                    String caesar_e = "";
+                    Caesar caes = new Caesar();
+                    caesar_e = caes.encryption(Strings.get(random_number), 3);
+                    status = twitter.updateStatus("Caesar encrypted text: " + caesar_e);
+                    System.out.println("Hogaya bhai hogaya " + status.getText());
+                    break;
+            }
+        }
+
+        catch (TwitterException t)
+        {
+            t.toString();
+        }
     }
 
     public ArrayList<String> getStrings(File input)

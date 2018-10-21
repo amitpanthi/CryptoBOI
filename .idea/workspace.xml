@@ -29,15 +29,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2280" />
+          <entry key="java" value="3469" />
           <entry key="properties" value="2" />
-          <entry key="txt" value="153" />
+          <entry key="txt" value="207" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2280" />
-          <entry key="PLAIN_TEXT" value="153" />
+          <entry key="JAVA" value="3469" />
+          <entry key="PLAIN_TEXT" value="207" />
           <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
@@ -45,7 +45,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="classpath" value="3" />
-          <entry key="java" value="4" />
+          <entry key="java" value="7" />
           <entry key="properties" value="1" />
           <entry key="txt" value="1" />
           <entry key="xml" value="1" />
@@ -55,7 +55,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Eclipse" value="3" />
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="1" />
@@ -66,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tas/Bot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="253">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,14 +78,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tas/Tweeter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="44" column="74" lean-forward="true" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
+            <state relative-caret-position="320">
+              <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tas/Base64_op.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -93,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tas/Railfence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="713">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,10 +112,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tas/HillCipher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1058">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tas/Caesar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tas/lines.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state>
+              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -130,9 +160,12 @@
         <option value="$PROJECT_DIR$/src/com/tas/twitter4j.properties" />
         <option value="$PROJECT_DIR$/src/com/tas/StringGen.java" />
         <option value="$PROJECT_DIR$/src/com/tas/Railfence.java" />
-        <option value="$PROJECT_DIR$/src/com/tas/Bot.java" />
+        <option value="$PROJECT_DIR$/src/com/tas/HillCipher.java" />
         <option value="$PROJECT_DIR$/src/com/tas/lines.txt" />
+        <option value="$PROJECT_DIR$/src/com/tas/Base64_op.java" />
+        <option value="$PROJECT_DIR$/src/com/tas/Caesar.java" />
         <option value="$PROJECT_DIR$/src/com/tas/Tweeter.java" />
+        <option value="$PROJECT_DIR$/src/com/tas/Bot.java" />
       </list>
     </option>
   </component>
@@ -183,12 +216,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540105370606" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/tas/twitter4j-core-4.0.7.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540121269719" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Crypto/lib/twitter4j-core-4.0.7-javadoc.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -332,37 +365,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tas/Bot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tas/lines.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tas/Railfence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="713">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tas/HillCipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tas/Caesar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tas/Base64_op.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tas/Tweeter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="44" column="74" lean-forward="true" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
+        <state relative-caret-position="320">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tas/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -426,7 +483,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
